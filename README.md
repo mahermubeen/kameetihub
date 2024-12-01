@@ -1,50 +1,107 @@
-# Welcome to your Expo app 👋
+KameetiHUB 📱
+KameetiHUB is a simple, user-friendly ROSCA (Rotating Savings and Credit Association) app designed to streamline group savings and community financing. With features like group creation, transaction tracking, admin controls, and chat, KameetiHUB makes managing your ROSCAs effortless and transparent.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Features ✨
+Create and Manage ROSCAs (Kameetis):
+Easily create groups and invite members to participate in community savings.
 
-## Get started
+Transaction Management:
+Track payments with an intuitive interface. Only the admin can mark members as paid/unpaid.
 
-1. Install dependencies
+In-App Chat:
+Communicate with members within the Kameeti group for updates and discussions.
 
-   ```bash
-   npm install
-   ```
+Admin Controls:
+Full control for group admins to manage transactions and member activities.
 
-2. Start the app
+Phone Verification & KYC:
+Ensure security with phone number verification and Know Your Customer (KYC) processes.
 
-   ```bash
-    npx expo start
-   ```
+Simple Subscription Model:
+A flat fee of 500 PKR per month in Pakistan for unlimited access to all features.
 
-In the output, you'll find options to open the app in a
+Technology Stack 🛠️
+Frontend:
+React Native + Tailwind CSS (for styling)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Backend:
+Node.js + Nest.js + MongoDB
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Authentication:
+Firebase Authentication (for phone verification)
 
-## Get a fresh project
+Real-time Chat & Notifications:
+Firebase Firestore & Cloud Messaging
 
-When you're ready, run:
+Payments:
+Stripe / Razorpay (optional, based on location)
 
-```bash
-npm run reset-project
-```
+Deployment:
+Expo for development and fast deployment to Android & iOS.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Installation & Setup 🧑‍💻
+Clone the repository:
 
-## Learn more
+bash
+Copy code
+git clone https://github.com/yourusername/kameetihub.git
+cd kameetihub
+Install dependencies:
 
-To learn more about developing your project with Expo, look at the following resources:
+bash
+Copy code
+npm install
+Set up environment variables in a .env file:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+plaintext
+Copy code
+REACT_NATIVE_API_URL=<Your Backend API URL>
+FIREBASE_API_KEY=<Your Firebase API Key>
+Run the app:
 
-## Join the community
+bash
+Copy code
+npm run start
+For iOS (requires Mac & Xcode):
 
-Join our community of developers creating universal apps.
+bash
+Copy code
+npm run ios
+For Android:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+bash
+Copy code
+npm run android
+Future Enhancements 🚀
+Automated Payment Reminders
+Notify users when payments are due.
+
+Analytics Dashboard
+Provide insights into group savings and financial progress.
+
+Multilingual Support
+Enable support for multiple languages to cater to a broader audience.
+
+Contributing 🤝
+We welcome contributions! Follow these steps to contribute:
+
+Fork the repo.
+Create a new branch:
+bash
+Copy code
+git checkout -b feature/your-feature-name
+Commit changes and push:
+bash
+Copy code
+git commit -m "Add your feature description"
+git push origin feature/your-feature-name
+Open a Pull Request.
+License 📜
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact 📬
+For support or inquiries, feel free to reach out:
+
+Mubeen Ahmad
+Portfolio
+LinkedIn
